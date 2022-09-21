@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+cout << " " << endl;
+cout << "Twilight: The Game." << endl;
+cout << "By: Brody Wood" << endl;
+cout << "Chapter 1" << endl;
+cout << " " << endl;
+cout << "My mother drove me to the airport with the windows rolled down. It was seventy-five degrees in Phoenix, the sky a perfect,cloudless blue. I was wearing my favorite shirt — sleeveless, white eyelet lace; I was wearing it as a farewell gesture." << endl;
+cout << " " << endl;
+
+string name;
+cout  << "Please enter your name:" << endl;
+cin >> name;
+cout << " " << endl;
+cout << "'" << name << "', my mom said to me — the last of a thousand times — before I got on the plane. 'You don't have to do this.'" << endl;
+cout << " " << endl;
+
+int a;
+int s;
+cout << "Do you want to go?" << endl;
+cout << "1. Yes, I do" << endl;
+cout << "2. No, I don't" << endl;
+
+cin >> a;
+switch (a)
+{
+    case 1:
+    {
+        cout << "'I want to go, trust me. I wouldn't lie...' I responded. While I was hesitant, I truely did want to go." << endl;
+        
+    }
+
+    case 2:
+    {
+        cout << "'I want to go,' I lied. I'd always been a bad liar, but I'd been saying this lie so frequently lately that it sounded almost convincing now." << endl;
+        
+    }
+    default:
+    cout << "Please enter 1 or 2." << endl;
+}
+return 0;
+}
